@@ -1,0 +1,62 @@
+<html>
+
+<head>
+    <title>SeaSlug Viewer</title>
+    <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
+</head>
+<body>
+    <h1>Sea slug</h1>
+    <div>
+        <p>color_1
+        <select id=c1>
+            <option value="1" style="color:red" selected>red</option>
+            <option value="10" style="color:green">green</option>
+            <option value="100" style="color:blue">blue</option>
+        </select>
+        </p>
+
+        <p>op
+        <select id=op>
+            <option value="+" selected>mix</option>
+            <option value="&">match</option>
+        </select>
+        </p>
+
+        <p>color_2
+        <select id=c2>
+            <option value="1" style="color:red" selected>red</option>
+            <option value="10" style="color:green">green</option>
+            <option value="100" style="color:blue">blue</option>
+        </select>
+        </p>
+
+        <p id=result>
+            Red
+        </p>
+        <br/>
+        <!-- The event handler is defined in the finaljava.js. -->
+        
+    </div>
+    <div>
+        <img id=seaslugimg></img>
+        <br/>
+        <p id=seaslugname>name
+        </p>
+        <br/>
+        <input type=button id=like value="Like">
+        <p id =count>0
+        </p>
+        <br/>
+        <img id=plotimg></img>
+    </div>
+    <div>
+        <!-- The event handler is descrived on an event attribute. -->
+        <input type=button id=log value="Console log" onclick="console.log('Button pushed!')">
+    </div>
+    <div>
+        <a href= "https://seaslug.world/" >引用元：世界のウミウシ</a>
+    </div>
+</body>
+<script type="text/javascript" src="/static/finaljava.js"> </script>
+
+</html>
